@@ -1,5 +1,5 @@
-import { resizeAspectRatio, setupText } from '../util.js';
-import { Shader, readShaderFile } from '../shader.js';
+import { resizeAspectRatio, setupText } from '../hw02/util.js';
+import { Shader, readShaderFile } from '../hw02/shader.js';
 
 const canvas = document.getElementById('glCanvas');
 const gl = canvas.getContext('webgl2');
